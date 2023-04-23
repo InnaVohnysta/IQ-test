@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700;900&family=PT+Serif:wght@400;700&family=Roboto:wght@300;400;500;900&family=Yeseva+One&display=swap" rel="stylesheet">
+  <link rel="stylesheet"  href="reset.css">
+  <link rel="stylesheet"  href="style.css">
+  <link rel="stylesheet"  href="test.css">
+  <link rel="icon" type="image/png" sizes="32x32" href="img/brain.png">
+  <title>Тест на уровень IQ</title>
+  <script src="app.js" defer></script>
+</head>
+<body>
+  <div class="container">
+    <div class="burger-menu">
+      <nav class="burger-menu__nav nav">
+        <ul class="nav__list">
+          <li class="nav__item"><a href="#hero" class="nav__link">Главная</a></li>
+          <li class="nav__item"><a href="#details" class="nav__link">Информация о тесте</a></li>
+          <li class="nav__item"><a href="#" class="nav__link">пройти тест</a></li>
+        </ul>
+      </nav>
+    </div>
+    <header class="header">
+      <div class="header__hamburger">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+      <img src="img/brain-header.png" alt="brain" height="45">
+      <h1 class="header__title">тест на определение IQ</h1>
+    </header>
+    <main class="main-test">
+      <div class="progress-container">
+        <progress class="progress-bar" value="9.09" max="100"></progress>
+      </div>
+      <div class="test-container">
+
+      </div>
+      <div class="button-container">
+        <button type="button" class="button" id="button-test">Далее</button>
+      </div>
+    </main>
+  </div>
+</body>
+</html>

@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700;900&family=PT+Serif:wght@400;700&family=Roboto:wght@300;400;500;900&family=Yeseva+One&display=swap" rel="stylesheet">
+  <link rel="stylesheet"  href="reset.css">
+  <link rel="stylesheet"  href="style.css">
+  <link rel="icon" type="image/png" sizes="32x32" href="img/brain.png">
+  <title>Тест на уровень IQ</title>
+  <script src="app.js" defer></script>
+
+</head>
+<body>
+    <div class="container">
+      <div class="burger-menu">
+        <nav class="burger-menu__nav nav">
+          <ul class="nav__list">
+            <li class="nav__item"><a href="#hero" class="nav__link">Главная</a></li>
+            <li class="nav__item"><a href="#details" class="nav__link">Информация о тесте</a></li>
+            <li class="nav__item"><a href="test.html" class="nav__link">пройти тест</a></li>
+          </ul>
+        </nav>
+      </div>
+      <header class="header">
+        <div class="header__hamburger">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+      </header>
+      <main class="main">
+        <section class="section-hero" id="hero">
+          <div class="section-hero__header">
+            <p class="section-hero__header-text">Пройдите точный и быстрый </p>
+            <h2 class="section-hero__header-title">тест на  <br>определение  <br>IQ</h2>
+          </div>
+          <div class="section-hero__description">
+            <a href="test.html" class="button active">Пройти тест</a>
+            <p class="section-hero__description-text"><span>И получите рекомендации <br>по развитию своего интеллекта</span><br> и улучшению финансового благосостояния и личной жизни</p>
+            <a href='#details' class="section-hero__details"><img src="img/details.png" alt="arrow"> Подробнее</a>
+          </div>
+        </section>
+        <section class="section-details" id="details">
+          <div class="section-details__quote">Профессиональный IQ-тест позволяет не только определить коэффициент вашего интеллекта,<br>но и выработать список рекомендаций для повышения этого показателя. </div>
+          <div class="section-details__tips"> 
+            <p>Также по результатам теста <br><span>вы получите</span>  подробные <br><span>советы</span> по определению наиболее перспективной <span>для вашегo типа</span> <b>интеллекта</b> <span>сферы деятельности,</span><br> которая принесет вам скорейший финансовый результат.</p>
+            <img src="img/section2.png" alt="sphere of activity">
+            <a href="test.html" class="button active">Пройти тест</a>
+          </div>
+          <div class="section-details__remark">
+            <h4>Прохождение теста займет у вас не более <span>12 минут</span>, а его результаты вы сможете <span>использовать всю жизнь.</span></h4>
+            <p>Профессиональная интерпретация и детально <span>проработанные рекомендации</span>  позволят вам качественно <span>изменить все аспекты своей жизни:</span> от финансового до любовного.</p>
+            <a href="test.html" class="button section-details__button">Пройти тест</a>
+            <footer class="footer"> &#169; 2019</footer>
+          </div>
+        </section>
+      </main>
+    </div>
+</body>
+</html>
